@@ -1,0 +1,486 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    /* border: solid 1px red */
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+}
+
+header nav div a {
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #242E52;
+    margin: 8px;
+}
+
+header nav div button {
+    height: 44px;
+    width: 134px;
+    border-radius: 50px;
+    border: solid #8B48BF;
+    background-color: #8B48BF;
+    color: white;
+}
+
+.sectionA {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.sectionA .divA {
+    width: 1129px;
+    height: 525px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sectionA div h1 {
+    width: 439px;
+    font-size: 58px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 66px;
+    color: #232C50;
+}
+
+.parrafoSectionA {
+    width: 350px;
+    height: 71px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-size: 16.5584px;
+    line-height: 151.1%;
+    align-items: center;
+}
+
+.sectionA div button {
+    height: 44px;
+    width: 134px;
+    border-radius: 50px;
+    background-color: #8B48BF;
+    border: solid #8B48BF;
+    color: white;
+    padding: 10px;
+    gap: 10px;
+}
+.button:hover{
+    font-size: 105%;
+    background-color: #000000;
+    border:solid #000000;
+
+}
+
+.imgSectionA {
+    width: 100%;
+}
+
+
+.sectionB {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-bottom: 200px;
+}
+
+.div1sectionb {
+    width: 433px;
+    height: 88px;
+}
+
+.sectionB div h2 {
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    color: #232851;
+}
+
+.p1sectionB {
+    font-size: 16px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 151.1%;
+    color: #000000;
+
+
+}
+
+.div2sectionb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.h5Section2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: -0.015em;
+    color: #323851;
+}
+
+.contenedortargetasseccionb {
+    width: 510px;
+}
+
+.buttonsectionb {
+    margin-right: 15px;
+    border-radius: 50px;
+    border: solid #8B48BF;
+    width: 69px;
+    height: 43px;
+    background-color: #8B48BF;
+    color: white;
+}
+
+.div2sectionb div p {
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-size: 16.2984px;
+    line-height: 26px;
+    letter-spacing: -0.01em;
+    color: #B3B2B7;
+}
+
+.h2SubtituloSeccion3 {
+    font-size: 39.12px;
+    text-align: center;
+    color: #232C50;
+    padding-bottom: 94px;
+}
+
+.sectionC {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    background-color: #FAFAFA;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.divCardSectionC {
+    width: 445px;
+    height: 219px;
+}
+
+.imgCard {
+    width: 70px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.sectionC div {
+    width: 330px;
+}
+
+.divImagenSection3 {
+    align-items: center;
+    position: relative;
+    top: -45px;
+
+}
+
+.h4sectionC {
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-size: 16.0714px;
+    line-height: 156.6%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #3F4868;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.pSectionC {
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 156.6%;
+    text-align: center;
+    color: #B9B9C1;
+}
+
+/*Botón final de la sección c*/
+
+.divButtonSectionC {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.buttonSectionC {
+    border-radius: 50px;
+    border: solid #8B48BF;
+    width: 134px;
+    height: 44px;
+    background-color: #8B48BF;
+    color: white;
+}
+
+/*Sección morada*/
+.sectionD {
+    display: flex;
+    justify-content: space-around;
+    background-color: #8B48BF;
+    width: 100%;
+    height: 224px;
+    align-items: center;
+}
+
+.buttonSectionD {
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    border: solid #FAFAFA;
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1806px;
+    line-height: 19px;
+    color: #8B48BF;
+}
+
+.h4SectionD {
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    width: 438px;
+    height: 96px;
+    color: white;
+}
+
+.footer {
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.divContainerRedesFooter{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logoFooter {
+    width: 145.54px;
+    height: 23.74px;
+}
+
+.divNavFooter {
+    width: auto;
+    height: auto;
+    
+}
+
+.navFooter{
+    width: 392.73px;
+    height: 141.14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    
+}
+
+.divNavFooter nav a{
+    font-family: 'Be Vietnam', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.divFormFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.inputForm {
+    border-radius: 50px;
+    width: 201px;
+    height: 44px;
+}
+
+.buttonForm {
+    width: 53px;
+    height: 42px;
+    border-radius: 50px;
+    border: solid #8B48BF;
+    background-color: #8B48BF;
+    color: white;
+}
+
+.copy a{
+    text-decoration: none;
+    color: #8C8C94;
+
+}
+.copy{
+    padding-top: 200px;
+}
+
+@media(min-width:481px){
+    .invisibleDesktop{
+        visibility: hidden;
+    }
+}
+@media(max-width:480px) {
+    .header {
+    padding-left: 100px;        
+    }
+    .navmobile{
+        padding-left: 50px;
+    }
+
+    .sectionA {
+        flex-direction: column;
+        /* width: 100vw; */
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .parrafoSectionA {
+        width: 350px;
+        height: 71px;
+    }
+
+    .sectionA .divA {
+        width: 439px;
+        height: 386px;
+        order: 2;
+        align-items: center;
+    }
+
+    .sectionB {
+        flex-direction: column;
+        width: 446px;
+        height: 900px;
+        margin-top: 0;
+        padding-bottom: 0;
+        justify-content: space-around;
+    }
+    .p1sectionB{
+        text-align: center;
+        padding-left: 15px;
+    }
+    .h2Sectionb{
+        padding-left: 30px;
+    }
+    .h5Section2{
+        background-color: #8B48BF4D;
+        height: 43px;
+        text-align: center;
+        justify-items: center;
+    }
+    .buttonsectionb{
+        margin-right: 0%;
+        margin-top:13px ;
+        width: 69px;
+        margin-left: 20px;
+    }
+
+    .div1sectionb {
+        width: 433px;
+        height: 212px;
+        padding: 50px;
+    }
+
+    .div2sectionb {
+        width: 446px;
+
+    }
+
+    .divnovisible {
+        visibility: hidden;
+    }
+    .sectionD{
+        flex-direction: column;
+    }
+    .h4SectionD{
+        text-align: center;
+    }
+    .footer{
+        width: 100%;
+        height: 600px;
+        flex-direction: column-reverse;
+        justify-content: center space-around;
+        align-items: center;
+    }
+    .divNavFooter{
+        width: auto;
+        order: 3 !important;
+    }
+    
+    .divFormFooter{
+        order: 4 !important;
+        width: auto;
+    }
+    .divContainerRedesFooter{
+        order: 2 !important;
+        flex-direction: column-reverse;
+        width: 100vw;
+        align-items: center;
+
+    }
+    .redesSociales{
+        padding: 50px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .copy{
+        order: 1 !important;
+        padding-top: 0%;
+    }
+    .inputForm{
+        width: 300px;
+    }
+
+}
